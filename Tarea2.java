@@ -31,7 +31,7 @@ public class Tarea2 {
 				/** Calculamos el tiempo */
 				
 				timeHour= (int)(distance/velocity);
-				timeMinutes= (int)(distance % velocity);
+				timeMinutes= (int)((distance % velocity)/velocity)*60;
 
 				/** Muestro los resultados */
 				System.out.println("El tiempo que se tardará en recorrer esa distancia es: "+timeHour+" horas y "+timeMinutes+" minutos");
