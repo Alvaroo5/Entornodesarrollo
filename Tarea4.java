@@ -6,47 +6,43 @@ public class Tarea4 {
 	
 	public static void main(String[] args) {
 		
+		Scanner sc = new Scanner (System.in);
+		   
+		   
+		   /** Inicializamos las variables */
+		
 		int numDia;
-
-		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Introduce un número del 1 al 7 y calcularemos el dia de la semana equivalente");
-		numDia = (int)scanner.nextInt();
+		System.out.println("Introduce un numero del 1 al 7");
 		
-		while (numDia < 1 || numDia > 7){
+		
+		numDia = sc.nextInt();
+		
+		while (numDia <1 || numDia >7)	{
 			
-			System.out.println("El número no es válido, por favor introduce un numero entre el 1 y el 7");
-			numDia = (int)scanner.nextInt();
+			System.out.println("Valor introducido incorrecto, por favor introduce un numero del 1 al 7");
+			numDia = sc.nextInt();
+			}
+					
+		switch(numDia) {
+		
+		case 1:
+			System.out.println("El día introducido es el Lunes");break;
+		case 2:
+			System.out.println("El día introducido es el Martes");break;
+		case 3:
+			System.out.println("El día introducido es el Miércoles");break;
+		case 4:
+			System.out.println("El día introducido es el Jueves");break;
+		case 5:
+			System.out.println("El día introducido es el Viernes");break;
+		case 6:
+			System.out.println("El día introducido es el Sábado");break;
+		case 7:
+			System.out.println("El día introducido es el Domingo");break;
+				
+			
 		
 		}
-	
-		if (numDia == 1) {
-		System.out.println("Lunes");
-		}
-		
-		if (numDia == 2) {
-		System.out.println("Martes");
-		}
-		
-		if (numDia == 3) {
-		System.out.println("Miércoles");
-		}
-		
-		if (numDia == 4) {
-		System.out.println("Jueves");
-		}
-		
-		if (numDia == 5) {
-		System.out.println("Viernes");
-		}
-		
-		if (numDia == 6) {
-		System.out.println("Sábado");
-		}
-		
-		if (numDia == 7) {
-		System.out.println("Domingo");
-		}
-		 	
-	}
+}
 }
