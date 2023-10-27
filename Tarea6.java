@@ -1,4 +1,4 @@
-package EntornoDesarrollo;
+package TareasEntorno;
 
 import java.util.Scanner;
 
