@@ -2,7 +2,7 @@ package TareasEntorno;
 
 import java.util.Scanner;
 
-public class Ejercicio6 {
+public class Tarea6 {
 	
 	public static void main(String[] args){
 		
