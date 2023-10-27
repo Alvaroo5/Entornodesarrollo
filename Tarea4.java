@@ -1,10 +1,10 @@
-package TareasEntorno;
+package EntornoDesarrollo;
 
 import java.util.Scanner;
 
-public class Tarea4 {
+public class Ejercicio4 {
 	
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		
 		Scanner sc = new Scanner (System.in);
 		   
