@@ -1,3 +1,5 @@
+package TareasEntorno;
+
 import java.util.Scanner;
 
 public class Ejercicio7 {
