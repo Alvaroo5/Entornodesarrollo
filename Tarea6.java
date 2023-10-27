@@ -1,4 +1,4 @@
-ackage EntornoDesarrollo;
+package EntornoDesarrollo;
 
 import java.util.Scanner;
 
